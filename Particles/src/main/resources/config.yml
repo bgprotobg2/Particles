@@ -1,0 +1,45 @@
+particles:
+  - type: FIREWORKS_SPARK
+    permission: trails.fireworks
+  - type: WATER_SPLASH
+    permission: trails.water_splash
+  - type: FLAME
+    permission: trails.flame
+  - type: HEART
+    permission: trails.heart
+  - type: VILLAGER_HAPPY
+    permission: trails.villager_happy
+  - type: CLOUD
+    permission: trails.cloud
+  - type: CRIT
+    permission: trails.crit
+  - type: CRIT_MAGIC
+    permission: trails.crit_magic
+  - type: NOTE
+    permission: trails.note
+  - type: PORTAL
+    permission: trails.portal
+  - type: REDSTONE
+    permission: trails.redstone
+  - type: SNOWBALL
+    permission: trails.snowball
+  - type: SLIME
+    permission: trails.slime
+  - type: WATER_SPLASH
+    permission: trails.water_splash
+  - type: DRIP_LAVA
+    permission: trails.drip_lava
+  - type: TOTEM
+    permission: trails.totem
+  - type: ENCHANTMENT_TABLE
+    permission: trails.enchantment_table
+  - type: ITEM_CRACK
+    permission: trails.item_crack
+  - type: LAVA
+    permission: trails.lava
+  - type: SPELL
+    permission: trails.spell
+  - type: TOWN_AURA
+    permission: trails.town_aura
+  - type: DRIP_WATER
+    permission: trails.drip_water

@@ -1,0 +1,7 @@
+bgprotobg\net\particles\listener\GUIListener.class
+bgprotobg\net\particles\gui\ParticleGUI.class
+bgprotobg\net\particles\listener\PlayerListener.class
+bgprotobg\net\particles\manager\ParticleManager.class
+bgprotobg\net\particles\model\ParticleEffect.class
+bgprotobg\net\particles\command\TrailsCommand.class
+bgprotobg\net\particles\Particles.class
