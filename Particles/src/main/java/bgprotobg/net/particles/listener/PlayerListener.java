@@ -22,7 +22,7 @@ public class PlayerListener implements Listener {
         ParticleEffect effect = ParticleManager.getInstance().getPlayerParticle(player);
 
         if (effect != null && player.hasPermission(effect.getPermission())) {
-            player.getWorld().spawnParticle(effect.getParticle(), player.getLocation(), 10);
+            player.getWorld().spawnParticle(effect.getParticle(), player.getLocation(), 10, 0, 0, 0, effect.getSize());
         }
     }
 
@@ -31,8 +31,8 @@ public class PlayerListener implements Listener {
         Player player = event.getPlayer();
         ParticleEffect effect = ParticleManager.getInstance().getPlayerParticle(player);
 
-        if (effect != null && player.hasPermission(effect.getPermission())) {
-            player.getWorld().spawnParticle(effect.getParticle(), player.getLocation(), 10);
+        if (player.isFlying() && effect != null && player.hasPermission(effect.getPermission())) {
+            player.getWorld().spawnParticle(effect.getParticle(), player.getLocation(), 10, 0, 0, 0, effect.getSize());
         }
     }
 }
