@@ -36,7 +36,8 @@ public class ParticleManager {
             try {
                 Particle particle = Particle.valueOf((String) particleConfig.get("type"));
                 String permission = (String) particleConfig.get("permission");
-                particles.put(permission, new ParticleEffect(particle, permission));
+                float size = particleConfig.containsKey("size") ? ((Number) particleConfig.get("size")).floatValue() : 1.0f;
+                particles.put(permission, new ParticleEffect(particle, permission, size));
             } catch (IllegalArgumentException e) {
                 System.out.println("Invalid trail type: " + particleConfig.get("type"));
             }
